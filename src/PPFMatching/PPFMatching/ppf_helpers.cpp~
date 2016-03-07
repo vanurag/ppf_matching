@@ -680,7 +680,7 @@ CV_EXPORTS int computeNormalsPC3d(const Mat PC, Mat& PCNormals, const int NumNei
     if (PC.cols!=3 && PC.cols!=6) // 3d data is expected
     {
         //return -1;
-        CV_Error(-10, "PC should have 3 or 6 elements in its columns");
+        CV_Error(cv::Error::BadImageSize, "PC should have 3 or 6 elements in its columns");
     }
     
     //size_t steps[2] = {1, 3};

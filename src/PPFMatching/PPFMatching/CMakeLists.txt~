@@ -29,5 +29,5 @@ add_executable(main
   #gdiam.cpp
   main.cpp
 )
-target_link_libraries(main ${OpenCV_LIBS}
+target_link_libraries(main t_hash_int ${OpenCV_LIBS}
   flann) #matrix3x3)

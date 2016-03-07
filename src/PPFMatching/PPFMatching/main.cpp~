@@ -22,7 +22,7 @@
 
 using namespace std;
 using namespace cv;
-using namespace ppf_match_3d;
+using namespace ppf_match_3d
 
 //#define USE_TOMMY_HASHTABLE
 
